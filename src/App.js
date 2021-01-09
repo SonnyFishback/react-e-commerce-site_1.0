@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import HomePage from "./homepage.component";
+import { Route, Link, Switch} from "react-router-dom";
+
+import HomePage from "./pages/hompeage/homepage.component";
 
 function App() {
   return (
