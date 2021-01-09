@@ -4,10 +4,8 @@ import "../hompeage/homepage.syles.scss";
 // COMPONENTS
 import Directory from "../../components/directory/directory.component";
 
-const HomePage  = () => {
+export const HomePage  = () => {
     return(
         <Directory/>
     )
 }
-
-export default HomePage;

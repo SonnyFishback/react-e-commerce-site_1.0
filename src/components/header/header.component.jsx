@@ -6,7 +6,7 @@ import "./header.styles.scss";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 
-const Header = () => {
+export const Header = () => {
     return(
         <header className="header">
             <Link to="/" className="logo-container">
@@ -24,4 +24,3 @@ const Header = () => {
     )
 }
 
-export default Header;
