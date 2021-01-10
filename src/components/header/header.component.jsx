@@ -21,7 +21,6 @@ export const Header = ({ currentUser }) => {
                 <Link to="/contact" className="options">
                     CONTACT
                 </Link>
-                {console.log(currentUser)}
                     {
                         currentUser ?
                          <div className="option" onClick={() => auth.signOut()}>Sign Out</div> 
