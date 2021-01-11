@@ -5,6 +5,7 @@ import {FormInput} from "../form-input/form-input.component";
 import {CustomButtom} from "../custom-button/custom-button.component";
 
 import {signInWithGoogle} from "../../firebase/firebase.utils";
+import {auth} from "../../firebase/firebase.utils"
 
 
 class SignIn extends Component {
@@ -17,9 +18,18 @@ class SignIn extends Component {
         }
     }
 
-    handleSubmit = (event) => {
+    handleSubmit = async (event) => {
         event.target.preventDefault();
-        this.setState({email: "", password: ""})
+
+        const {email, password} = this.state;
+
+        try{
+            await auth.signInWithEmailAndPassword(email, password);
+
+            this.setState({email: "", password: ""})
+        }catch(error){
+            console.log(error)
+        }
     }
 
     handleChange = (event) => {
@@ -37,12 +47,12 @@ class SignIn extends Component {
                     
                     <FormInput handleChange={this.handleChange} type="email" name="email" value={this.state.email} label="email" required/>
 
-                    <FormInput handleChange={this.handleChange} type="password" name="password" value={this.state.email} label="password" required/>
+                    <FormInput handleChange={this.handleChange} type="password" name="password" value={this.state.password} label="password" required/>
 
                   <div className="buttons">
                   <CustomButtom type="submit">SIGN IN</CustomButtom>
-                    <CustomButtom onClick={signInWithGoogle} isGoogleSignIn>
-                        {" "}SIGN IN WITH GOOGLE{" "}
+                    <CustomButtom onClick={signInWithGoogle} type="button" isGoogleSignIn>
+                        SIGN IN WITH GOOGLE
                     </CustomButtom>
                   </div>
                 </form>
