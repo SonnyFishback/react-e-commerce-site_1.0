@@ -1,5 +1,5 @@
 import React from "react";
-import  { CustomButtom } from "../custom-button/custom-button.component";
+import  CustomButtom from "../custom-button/custom-button.component";
 import "./cart-dropdown.syles.scss";
 
 
