@@ -5,7 +5,7 @@ import "./checkout.styles.scss";
 const CheckoutPage = () => {
     return(
         <div>
-            CHECKOUT PAGE
+            CHECKOUT-PAGE
         </div>
     )
 }
