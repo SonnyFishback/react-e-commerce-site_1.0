@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/eact-e-commerce-site_1.0/static/css/main.5501a54c.chunk.css",
+    "main.js": "/eact-e-commerce-site_1.0/static/js/main.6150e0bd.chunk.js",
+    "main.js.map": "/eact-e-commerce-site_1.0/static/js/main.6150e0bd.chunk.js.map",
+    "runtime-main.js": "/eact-e-commerce-site_1.0/static/js/runtime-main.77f994cb.js",
+    "runtime-main.js.map": "/eact-e-commerce-site_1.0/static/js/runtime-main.77f994cb.js.map",
+    "static/js/2.dd9d5d5a.chunk.js": "/eact-e-commerce-site_1.0/static/js/2.dd9d5d5a.chunk.js",
+    "static/js/2.dd9d5d5a.chunk.js.map": "/eact-e-commerce-site_1.0/static/js/2.dd9d5d5a.chunk.js.map",
+    "static/js/3.22bf7735.chunk.js": "/eact-e-commerce-site_1.0/static/js/3.22bf7735.chunk.js",
+    "static/js/3.22bf7735.chunk.js.map": "/eact-e-commerce-site_1.0/static/js/3.22bf7735.chunk.js.map",
+    "index.html": "/eact-e-commerce-site_1.0/index.html",
+    "service-worker.js": "/eact-e-commerce-site_1.0/service-worker.js",
+    "service-worker.js.map": "/eact-e-commerce-site_1.0/service-worker.js.map",
+    "static/css/main.5501a54c.chunk.css.map": "/eact-e-commerce-site_1.0/static/css/main.5501a54c.chunk.css.map",
+    "static/js/2.dd9d5d5a.chunk.js.LICENSE.txt": "/eact-e-commerce-site_1.0/static/js/2.dd9d5d5a.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/eact-e-commerce-site_1.0/static/media/crown.3a4e2b15.svg",
+    "static/media/shopping-bag.a688874f.svg": "/eact-e-commerce-site_1.0/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77f994cb.js",
+    "static/js/2.dd9d5d5a.chunk.js",
+    "static/css/main.5501a54c.chunk.css",
+    "static/js/main.6150e0bd.chunk.js"
+  ]
+}
