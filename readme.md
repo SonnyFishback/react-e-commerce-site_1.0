@@ -1,6 +1,10 @@
-# Crown clothing (E-commerce site)
+# Crown clothing
 
 Crown clothing is a react.js e-commerce website that allows you to purchase clothing on the web.
+
+<img src="ReadMeFiles/crown-clothing-homepage.png"></img>
+
+
 ## Installation
 
 Use the package manager [npm](https://docs.npmjs.com/) to install needed dependencies.
@@ -8,6 +12,8 @@ Use the package manager [npm](https://docs.npmjs.com/) to install needed depende
 ```bash
 npm install
 ```
+
+
 
 ## Technologies used:
 
